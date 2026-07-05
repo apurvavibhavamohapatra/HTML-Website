@@ -1,0 +1,67 @@
+<!-- renamed as register.html previously Assignment11.html--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="./LearnCoding.jpg" alt="html logo" height="40" width="40">
+            <span>Learn Coding</span>
+        </div>
+        <nav align="right">
+            <a href="./about.html">About</a> |
+            <a href="./contact.html">Contact</a> | 
+            <a href="./media.html">Media</a> |
+            <a href="./login.html">Login</a>
+        </nav>
+    </header> <br>
+
+    <h2>SignUp</h2>
+    <form action="">
+        <label for="">Enter Username:</label> 
+        <input type="text" placeholder="Enter username" required>
+        <br><br>
+
+        <label for="">Enter Email:</label>
+        <input type="email" placeholder="Enter email" required>
+        <br><br>
+
+        <label for="">Enter Password:</label>
+        <input type="password" placeholder="Enter Password" required>
+        <br><br>
+
+        <label for="">Confirm Password:</label>
+        <input type="password" placeholder="Confirm Password" required>
+        <br><br>
+
+        <input type="checkbox">
+        <label for="">Remember Me</label> <!-- for attribute is currently NOT required now. It is used when we will write JavaScript when data is submitted and store data in backend then for attribute is used.-->
+        <br><br>
+
+        <p>Select Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label>Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label>Female</label>
+        <br><br>
+
+        <label>Select Role:</label>
+        <select>
+            <option value="">--select role--</option>
+            <option value="user">user</option>
+            <option value="admin">admin</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Register"> <!-- Button me jo bhi content likhna he vo value me likhte hen. -->
+
+        <p>Have Account? <a href="login.html">Login Here</a></p>
+    </form>
+</body>
+</html>
